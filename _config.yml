@@ -1,0 +1,4 @@
+title: My Band Archive
+collections:
+  albums:
+    output: true
