@@ -1,6 +1,5 @@
 title: My Band Archive
-baseurl: "/Anathema-Guide"
 collections:
   albums:
     output: true
-    permalink: /albums/:name/
+    permalink: /Anathema-Guide/albums/:name/
