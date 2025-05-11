@@ -2,4 +2,4 @@ title: My Band Archive
 collections:
   albums:
     output: true
-    permalink: /Anathema-Guide/albums/:name/
+    permalink: /albums/:name/
