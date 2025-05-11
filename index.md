@@ -9,11 +9,11 @@ layout: default
 
 <ul>
 {% for album in site.albums %}
-  <li><a href="{{ album.url }}">{{ album.title }}</a> ({{ album.year }})</li>
+  <li><a href="{{ site.baseurl }}{{ album.url }}">{{ album.title }}</a> ({{ album.year }})</li>
 {% endfor %}
 </ul>
 
 # umm
 {% for album in site.albums %}
-  <p>{{ album.url }}</p>
+  <p>{{ site.baseurl }}{{ album.url }}</p>
 {% endfor %}

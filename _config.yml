@@ -1,4 +1,5 @@
 title: My Band Archive
+baseurl: "/Anathema-Guide"
 collections:
   albums:
     output: true
