@@ -1,7 +1,7 @@
 ---
 title: "Hindsight"
 year: 2008
-layout: default
+layout: standard-album
 ---
 
 A turning point in their sound. Includes *Norwegian Wood*, *Michelle*, and *In My Life*.
