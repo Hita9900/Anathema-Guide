@@ -1,5 +1,8 @@
-title: My Band Archive
+title: Anathema Ultimate Guide
+url: "https://hita9900.github.io"
 baseurl: "/Anathema-Guide"
+image: "/images/banner.jpg"
+description: "Anathema Ultimate fan Guide: browse the amazing world of anathema family and find yourself"
 collections:
   albums:
     output: true
