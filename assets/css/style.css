@@ -10,8 +10,8 @@
       margin-right: 0;
     }
     .navbar-toggler{
-      border-color: #fff;
-      border: 0px solid white;
+      border-color: #fff !important;
+      border: 0px solid white !important;
     }
       .custom-radius-3
     {
@@ -21,18 +21,18 @@
     @media screen and (min-width: 768px) {
       .custom-radius-3
     {
-      border-radius: 4.25rem;
+      border-radius: 4.25rem !important;
     } 
     }
     .custom-radius-2
     {
-      border-radius: 2.25rem;
+      border-radius: 2.25rem !important;
       overflow: clip;    
     }
     @media screen and (max-width: 768px) {
       .custom-radius-2
     {
-      border-radius: 1.25rem;
+      border-radius: 1.25rem !important;
     } 
     }
     @media screen and (max-width:768px){
@@ -61,7 +61,7 @@
     }
     @media screen and (max-width:575px) {
     .popo{
-      width: 50%;
+      width: 50% !important;
     }}
     .black-hover{
       background: #00000060;    
