@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,83 +11,8 @@
   <title>{{ page.title }}</title>
   <script src="https://kit.fontawesome.com/43c82f18ff.js" crossorigin="anonymous"></script>
 
-  <style>
-    body{
-      font-family: "Montserrat", sans-serif;
-      font-weight: 300;
-    }
-    .fweight-ligth{
-      font-weight: 200;
-    }
-    .row{
-      margin-left: 0;
-      margin-right: 0;
-    }
-    .navbar-toggler{
-      border-color: #fff;
-      border: 0px solid white;
-    }
-      .custom-radius-3
-    {
-      border-radius: 2.25rem;
-      overflow: clip;
-    }      
-    @media screen and (min-width: 768px) {
-      .custom-radius-3
-    {
-      border-radius: 4.25rem;
-    } 
-    }
-    .custom-radius-2
-    {
-      border-radius: 2.25rem;
-      overflow: clip;    
-    }
-    @media screen and (max-width: 768px) {
-      .custom-radius-2
-    {
-      border-radius: 1.25rem;
-    } 
-    }
-    @media screen and (max-width:768px){
-      .deco-logo{
-        display:none;
-      }
-    }
-    .dropdown-toggle::after {
-    display: inline-block;
-    margin-left: .255em;
-    vertical-align: .255em;
-    content: "";
-    }
-
-    .button-custom-dark{
-      font-weight: 600;
-      background-color: #ffffff30;
-      color:white;
-      float: left;
-      padding: 10px;
-      border-radius: 8px;
-    }
-    .button-custom-dark:hover{
-      background-color: #ffffff00;
-      transition: 0.3s;
-    }
-    @media screen and (max-width:575px) {
-    .popo{
-      width: 50%;
-    }}
-    .black-hover{
-      background: #00000060;    
-    }
-    .black-hover:hover{
-      background-color: #00000000;
-      transition: 200ms;
-    }
-
-  </style>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="sticky-top bg-white  navbar navbar-expand-lg navbar-light">
       <div class="container py-3 px-5">
         <a class="navbar-brand" href="#">
           <img src="./Images/Logo.svg" />
