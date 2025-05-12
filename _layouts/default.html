@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   {% include head.html %}
 </head>
+
 <body>
     <nav class="sticky-top bg-white  navbar navbar-expand-lg navbar-light">
       <div class="container py-3 px-5">
@@ -58,9 +60,6 @@
     </nav>
 
 
-
-
-
   <div class="container">
 
       <div class="card bg-dark border-0 text-white custom-radius-3">
@@ -80,7 +79,7 @@
         <div class="col-sm popo p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
-              <img src="./Images/discography.jpg" class="card-img" alt="">
+              <img src="{{ '/Images/discography.jpg' | relative_url }}" class="card-img" alt="">
               <div class="card-img-overlay px-2 d-flex align-items-end justify-content-center black-hover">
                 <p class="font-weight-bold card-text">Discography</p>
               </div>
@@ -91,7 +90,7 @@
         <div class="col-sm popo p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
-              <img src="./Images/albums.jpg" class="card-img" alt="">
+              <img src="{{ '/Images/albums.jpg' | relative_url }}" class="card-img" alt="">
               <div class="card-img-overlay px-2 d-flex align-items-end justify-content-center black-hover">
                 <p class="font-weight-bold card-text">Albums</p>
               </div>
@@ -102,7 +101,7 @@
         <div class="col-sm popo p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
-              <img src="./Images/oldTracks.jpg" class="card-img" alt="">
+              <img src="{{ '/Images/oldTracks.jpg' | relative_url }}" class="card-img" alt="">
               <div class="card-img-overlay px-2 d-flex align-items-end justify-content-center black-hover">
                 <p class="font-weight-bold card-text">Old Songs</p>
               </div>
@@ -113,7 +112,7 @@
         <div class="col-sm popo p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
-              <img src="./Images/WS.jpg" class="card-img" alt="">
+              <img src="{{ '/Images/WS.jpg' | relative_url }}" class="card-img" alt="">
               <div class="card-img-overlay px-2 d-flex align-items-end justify-content-center black-hover">
                 <p class="font-weight-bold card-text">Weather Systems</p>
               </div>
@@ -132,7 +131,6 @@
         
       </div>
       
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+ {% include footer.html %}
 </body>
 </html>
