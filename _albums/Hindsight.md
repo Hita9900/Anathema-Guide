@@ -34,10 +34,8 @@ tracklist:
     length: "4:18"
     source: "previously unreleased"
 imgURL: "https://upload.wikimedia.org/wikipedia/en/a/ad/KSCOPE106_Anathema.jpg"
-Note: "This Compilation Album is consisting of re-recorded versions of some of the band's classic songs  with the addition of one new song, Unchained (Tales of the  Unexpected)."
-description: "A turning point in their sound. Includes *Norwegian Wood*, *Michelle*, and *In My Life*. A turning point in their sound. Includes *Norwegian Wood*, *Michelle*, and *In My Life*. A turning point in their sound. Includes *Norwegian Wood*, *Michelle*, and *In My Life*.A turning point in their sound. Includes *Norwegian Wood*, *Michelle*, and *In My Life*. A turning point in their sound. Includes *Norwegian Wood*, *Michelle*, and *In My Life*."
+Note: "sample text"
+description: "a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text"
 ---
 
-
-
-[Spotify Link](https://spotify.com/rubber-soul)
+[Spotify Link sample](https://spotify.com/rubber-soul)

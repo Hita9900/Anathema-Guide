@@ -1,6 +1,15 @@
     body{
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", sans-serif !important;
       font-weight: 300;
+    }
+    h1, h2, h3, h4, h5, h6{
+      font-family: "Montserrat", sans-serif !important;
+    }
+    .container-override{
+      width: 100% !important;
+    }
+    .container{
+      width: 100% !important;
     }
     .fweight-ligth{
       font-weight: 200;
@@ -13,11 +22,11 @@
       border-color: #fff !important;
       border: 0px solid white !important;
     }
-      .custom-radius-3
-    {
+      .custom-radius-3{
       border-radius: 2.25rem !important;
       overflow: clip;
     }      
+    
     @media screen and (min-width: 768px) {
       .custom-radius-3
     {
@@ -34,6 +43,9 @@
     {
       border-radius: 1.25rem !important;
     } 
+    }
+    .custom-radius-1{
+      border-radius: 1.25rem !important;
     }
     @media screen and (max-width:768px){
       .deco-logo{

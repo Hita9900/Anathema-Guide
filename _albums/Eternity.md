@@ -1,0 +1,34 @@
+---
+title: "Eternity"
+year: 1996
+layout: standard-album
+tracklist:
+  - title: "Sentient" 
+    length: "2:59"
+  - title: "Angelica" 
+    length: "5:51"
+  - title: "The Beloved" 
+    length: "4:44"
+  - title: "Eternity Part I" 
+    length: "5:35"
+  - title: "Eternity Part II" 
+    length: "3:12"
+  - title: "Hope" 
+    length: "5:55"
+  - title: "Suicide Veil" 
+    length: "5:11"
+  - title: "Radiance" 
+    length: "5:52"
+  - title: "Far Away" 
+    length: "5:30"
+  - title: "Eternity Part III" 
+    length: "4:44"
+  - title: "Cries on the Wind"
+    length: "5:011"
+  - title: "Ascension" 
+    length: "3:20"
+imgURL: "https://i.discogs.com/X0O1PD6nJO7htIbfYprE6hnrmLRazXJOLat54GQN__o/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDQ4/MDUtMTI4NzY2NDQy/Ny5qcGVn.jpeg"
+Note: ""
+description: ""
+---
+[Spotify Link]()

@@ -5,92 +5,64 @@
 </head>
 
 <body>
-    <nav class="sticky-top bg-white  navbar navbar-expand-lg navbar-light">
-      <div class="container py-3 px-5">
-        <a class="navbar-brand" href="#">
-          <img src="{{ site.baseurl }}/Images/Logo.svg" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Discography Timeline</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Quick Access
-              </a>
-              <div class="dropdown-menu">
-                <p>Albums</p>
-                <a class="dropdown-item" href="#">Official Albums</a>
-                <a class="dropdown-item" href="#">Compilation Albums</a>
-                <a class="dropdown-item" href="#">Live Albums</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">EPs</a>
-                <a class="dropdown-item" href="#">Singles</a>
-                <a class="dropdown-item" href="#">Demos</a>
-                <div class="dropdown-divider"></div>
-                <p>Albums</p>
-                <a class="dropdown-item" href="#">Weather Systems</a>
-                <a class="dropdown-item" href="#">The Radicant</a>
-                <a class="dropdown-item" href="#">D.C. Solo Albums</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">WS & More</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Anathema</a>
-            </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
-            </li>
-          </ul>
+      <!--navbar-->
+      {% include navbar-albums.html %}
+
+      <!--top header-->
+      <div class="pb-5" style="background-image: linear-gradient(#00000080,#00000080), url('{{ page.imgURL }}');background-size: cover;margin-top: -100px;">
+        <div class="container" style="padding: 90px;"></div>
+        <div class="container container-override row" style="margin: 0 auto;">
+          <div class="col-sm-6 justify-content-center d-flex">
+            <img class="custom-radius-1" width="200px" src="{{ page.imgURL }}">
+          </div>
+          <div class="col-sm-6 d-flex justify-content-center flex-column text-white">
+            <h1 class="font-italic" style="font-weight: 200;">{{ page.title }}</h1>
+            <h4>{{ page.year }}</h4>
+          </div>
         </div>
       </div>
-    </nav>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <div class="my-5 text-center">
+              <a href="https://google.com" target="_blank">            
+                <button type="button" class="btn btn-dark">
+                  <i class="text-success fa-brands fa-spotify"></i>&nbsp;Listen to {{ page.title }} on Spotify
+                </button>
+              </a>
+            </div>
+            <h3 class="pb-3 font-weight-light">TrackList</h3>
+            <table class="table table-sm tracklist">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>Track</th>
+                    <th>Length</th>
+                    <th></th>
+                  </tr>
+                </thead>
+              <tbody>
+                {% for track in page.tracklist %}
+                <tr>
+                  <td>{{ track.title }}</td>
+                  <td>{{ track.length }}</td>
+                  {% if track.source %}
+                  <td>{{ track.source }}</td>
+                  {% endif %}
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"></div>
+          
+        </div>
 
-  
-  <div class="container">
-    <img src="{{ page.imgURL }}" alt="{{ page.title }} Cover Art">
-    <h1>{{ page.title }}</h1>
-    <p><strong>Released:</strong> {{ page.year }}</p>
-
-    <table class="table table-sm tracklist">
-      <thead class="thead-dark">
-        <tr>
-          <th>Track</th>
-          <th>Length</th>
-          <th></th>
-        </tr>
-        <h3>TrackList</h3>
-      </thead>
-      <tbody>
-        {% for track in page.tracklist %}
-        <tr>
-          <td>{{ track.title }}</td>
-          <td>{{ track.length }}</td>
-          {% if track.source %}
-           <td>{{ track.source }}</td>
-          {% endif %}
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-
-
-    <p>{{ page.note }}</p>
-    <div>
-      {{ content }}
+        <p>{{ page.note }}</p>
+        <div>
+          {{ page.description }}
+        </div>
     </div>
   </div>
 

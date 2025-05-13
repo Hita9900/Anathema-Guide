@@ -2,7 +2,7 @@
 title: "Abbey Road"
 year: 1969
 genre: "Rock"
-layout: default
+layout: standard-album
 ---
 
 Considered one of their best works.

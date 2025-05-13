@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: home
 ---
 
 # Welcome to the Ultimate Band Archive
@@ -12,8 +12,3 @@ layout: default
   <li><a href="{{ site.baseurl }}{{ album.url }}">{{ album.title }}</a> ({{ album.year }})</li>
 {% endfor %}
 </ul>
-
-# umm
-{% for album in site.albums %}
-  <p>{{ site.baseurl }}{{ album.url }}</p>
-{% endfor %}
