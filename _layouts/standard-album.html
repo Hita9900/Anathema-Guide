@@ -64,26 +64,15 @@
     <img src="{{ page.imgURL }}" alt="{{ page.title }} Cover Art">
     <h1>{{ page.title }}</h1>
     <p><strong>Released:</strong> {{ page.year }}</p>
-    <br>
-    <ul>
-      {% for track in page.tracklist %}
-        <li>
-          {{ track.title }} ({{ track.length }})
-            {% if track.source %}
-            — <em>{{ track.source }}</em>
-            {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
 
-    <br>
-
-    <table class="tracklist">
-      <thead>
+    <table class="table table-sm tracklist">
+      <thead class="thead-dark">
         <tr>
           <th>Track</th>
           <th>Length</th>
-          </tr>
+          <th></th>
+        </tr>
+        <h3>TrackList</h3>
       </thead>
       <tbody>
         {% for track in page.tracklist %}
