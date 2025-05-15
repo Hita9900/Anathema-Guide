@@ -82,3 +82,19 @@
       background-color: #00000000;
       transition: 200ms;
     }
+    .footer-radius{
+      border-radius: 2.25rem 2.25rem 0 0 ;
+    }
+    .color-deezer{
+      color:#a238ff;
+    }
+    .bg-deezer{
+      background-color: #a238ff;
+    }
+    .color-soundcloud{
+      color: #FF5500;
+    }
+    .social-buttons button{
+      width: 29px;
+      height: 29px;
+    }

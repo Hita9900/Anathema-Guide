@@ -25,7 +25,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Quick Access
+                Categories
               </a>
               <div class="dropdown-menu">
                 <p>Albums</p>
@@ -61,7 +61,7 @@
 
 
   <div class="container">
-
+      <!--banner-->
       <div class="card bg-dark border-0 text-white custom-radius-3">
         <img src="{{ '/Images/banner.jpg' | relative_url }}" class="card-img" alt="Anathema-banner">
         <div class="card-img-overlay pl-5 d-flex align-items-center">
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-
+      <!--cards-->
       <div class="row mt-4">
 
         <div class="col-sm popo p-2">
@@ -118,19 +118,18 @@
               </div>
             </div>
           </a>
-        </div>
-
-        <div class="container">
+        </div>       
+      </div>
+      <!--buttom jekyll info-->
+      <div>
           <h1>{{ page.title }}</h1>
           <p><strong>Released:</strong> {{ page.year }}</p>
           <div>
             {{ content }}
           </div>
-        </div>
-
-        
       </div>
-      
- {% include footer.html %}
+      <!--footer-->
+      {% include footer.html %}
+  </div>
 </body>
 </html>

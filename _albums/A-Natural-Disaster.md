@@ -28,6 +28,9 @@ tracklist:
 imgURL: "https://i.discogs.com/R_nBLEow3Owcks-IWtyPFg4YDpsPnDTJFBLzSSWCto8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4ODEy/NzgtMTMwNjA5OTE5/Ni5qcGVn.jpeg"
 Note: ""
 description: ""
+spotifyLink: "https://open.spotify.com/album/2u9kFU66dEBxvvw23QPujf?si=06-4cqsXS2SqXbsk7PlN3Q"
+deezerLink: "https://dzr.page.link/735P2XFapYy9rKnG9"
+soundcloudLink: "https://soundcloud.com/weareanathema/sets/a-natural-disaster-remastered"
 ---
 [Spotify Link]()
 

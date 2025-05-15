@@ -9,29 +9,36 @@
       {% include navbar-albums.html %}
 
       <!--top header-->
-      <div class="pb-5" style="background-image: linear-gradient(#00000080,#00000080), url('{{ page.imgURL }}');background-size: cover;margin-top: -100px;">
-        <div class="container" style="padding: 90px;"></div>
-        <div class="container container-override row" style="margin: 0 auto;">
-          <div class="col-sm-6 justify-content-center d-flex">
-            <img class="custom-radius-1" width="200px" src="{{ page.imgURL }}">
-          </div>
-          <div class="col-sm-6 d-flex justify-content-center flex-column text-white">
-            <h1 class="font-italic" style="font-weight: 200;">{{ page.title }}</h1>
-            <h4>{{ page.year }}</h4>
-          </div>
-        </div>
-      </div>
+      {% include album-header.html %}
 
       <div class="container">
         <div class="row">
           <div class="col-sm-2"></div>
           <div class="col-sm-8">
             <div class="my-5 text-center">
-              <a href="https://google.com" target="_blank">            
-                <button type="button" class="btn btn-dark">
-                  <i class="text-success fa-brands fa-spotify"></i>&nbsp;Listen to {{ page.title }} on Spotify
+              {% if page.spotifyLink %}
+              <a href="{{ page.spotifyLink }}" target="_blank">            
+                <button type="button" class="my-2 btn btn-dark">
+                  <i class="text-success fa-brands fa-spotify"></i>&nbsp;Listen on Spotify
                 </button>
               </a>
+              {% endif %}
+              {% if page.deezerLink %}
+              <a href="{{ page.deezerLink }}" target="_blank">            
+                <button type="button" class="my-2 btn btn-dark">
+                  <i class="color-deezer fa-brands fa-deezer"></i>&nbsp;Listen on Deezer
+                </button>
+              </a>
+              
+              {% endif %}
+              {% if page.soundcloudLink %}
+              <a href="{{ page.soundcloudLink }}" target="_blank">            
+                <button type="button" class="my-2 btn btn-dark">
+                  <i class="color-soundcloud fa-brands fa-soundcloud"></i>&nbsp;Listen on Soundcloud
+                </button>
+              </a>
+              
+              {% endif %}
             </div>
             <h3 class="pb-3 font-weight-light">TrackList</h3>
             <table class="table table-sm tracklist">
@@ -63,14 +70,7 @@
         <div>
           {{ page.description }}
         </div>
-    </div>
-  </div>
-
-
-
-
-
-
+      </div>
 
 
   {% include footer.html %}

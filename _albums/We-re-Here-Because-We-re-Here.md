@@ -26,5 +26,8 @@ tracklist:
 imgURL: "https://i.discogs.com/CS1Hu5MgGRuz7kNH8Heqtw1XLwPbnqfz7VRny3XkZsM/rs:fit/g:sm/q:90/h:400/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNzUw/ODctMTQzMzk0NDg5/MC05NjU4LmpwZWc.jpeg"
 Note: ""
 description: ""
+spotifyLink: "https://open.spotify.com/album/79FudauMORQTxnceeN55ik"
+deezerLink: "https://dzr.page.link/26GAqju3DyRdWem3A"
+soundcloudLink: "https://soundcloud.com/weareanathema/sets/weather-systems-3"
 ---
 [Spotify Link]()
