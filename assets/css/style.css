@@ -73,8 +73,8 @@
       transition: 0.3s;
     }
     @media screen and (max-width:575px) {
-    .popo{
-      width: 50% !important;
+    .mx-width50{
+      max-width: 50% !important;
     }}
     .black-hover{
       background: #00000060;    
@@ -100,3 +100,15 @@
       height: 28px;
       border: none;
     }
+    .timeline-header{
+      background-image: url('../../Images/banner.jpg');
+      background-size: cover;
+      padding: 100px 0;
+      }
+    .marker{
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      background-color: black;
+      
+      }

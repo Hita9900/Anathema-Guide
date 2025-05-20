@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include navbar.html %}
+        <div class="container">
+            <div class="timeline-header mb-5 text-white custom-radius-3 text-center"><h1 class="fweight-ligth">{{ page.title }}</h1></div>
+        
+        {% assign The-Optimist = site.albums | where: "slug", "The-Optimist" | first %}
+        {% assign Judgement = site.albums | where: "slug", "Judgement" | first %}
+        {% assign we-re-here = site.albums | where: "slug", "we-re-here" | first %}
+
+        
+        {% include timeline-yeartitle.html year="1990" %}
+        
+        {% include timeline-card.html 
+        title=Judgement.title 
+        image=Judgement.imgURL
+        type=Judgement.type
+        link=Judgement.url %}
+
+        {% include timeline-yeartitle.html year="1992" %}
+
+        {% include timeline-card.html 
+        title=we-re-here.title 
+        image=we-re-here.imgURL
+        type=we-re-here.type
+        link=we-re-here.url %}
+        </div>
+
+
+        
+
+        
+        
+
+
+        
+    </body>
+
+</html>
