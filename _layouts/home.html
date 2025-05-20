@@ -6,59 +6,8 @@
 </head>
 
 <body>
-    <nav class="sticky-top bg-white  navbar navbar-expand-lg navbar-light">
-      <div class="container py-3 px-5">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-          <img src="{{ '/Images/Logo.svg' | relative_url }}" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Discography Timeline</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Categories
-              </a>
-              <div class="dropdown-menu">
-                <p>Albums</p>
-                <a class="dropdown-item" href="#">Official Albums</a>
-                <a class="dropdown-item" href="#">Compilation Albums</a>
-                <a class="dropdown-item" href="#">Live Albums</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">EPs</a>
-                <a class="dropdown-item" href="#">Singles</a>
-                <a class="dropdown-item" href="#">Demos</a>
-                <div class="dropdown-divider"></div>
-                <p>Albums</p>
-                <a class="dropdown-item" href="#">Weather Systems</a>
-                <a class="dropdown-item" href="#">The Radicant</a>
-                <a class="dropdown-item" href="#">D.C. Solo Albums</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">WS & More</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Anathema</a>
-            </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+  <!--navbar-->
+  {% include navbar.html %}
 
   <div class="container">
       <!--banner-->
@@ -76,7 +25,7 @@
       <!--cards-->
       <div class="row mt-4">
 
-        <div class="col-sm popo p-2">
+        <div class="col-sm mx-width50 p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
               <img src="{{ '/Images/discography.jpg' | relative_url }}" class="card-img" alt="">
@@ -87,7 +36,7 @@
           </a>
         </div>
 
-        <div class="col-sm popo p-2">
+        <div class="col-sm mx-width50 p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
               <img src="{{ '/Images/albums.jpg' | relative_url }}" class="card-img" alt="">
@@ -98,7 +47,7 @@
           </a>
         </div>
 
-        <div class="col-sm popo p-2">
+        <div class="col-sm mx-width50 p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
               <img src="{{ '/Images/oldTracks.jpg' | relative_url }}" class="card-img" alt="">
@@ -109,7 +58,7 @@
           </a>
         </div>
 
-        <div class="col-sm popo p-2">
+        <div class="col-sm mx-width50 p-2">
           <a class="text-white" href="#">
             <div class="card bg-dark border-0 text-white custom-radius-2">
               <img src="{{ '/Images/WS.jpg' | relative_url }}" class="card-img" alt="">
