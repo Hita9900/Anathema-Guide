@@ -1,6 +1,7 @@
 ---
 title: "Serenades"
 year: 1993
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Lovelorn Rhapsody"

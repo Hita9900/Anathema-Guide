@@ -1,6 +1,8 @@
 ---
 title: "The-Optimist"
 year: 2017
+type: "album"
+slug: "The-Optimist"
 layout: standard-album
 tracklist:
   - title: "32.63n 117.14w" 
@@ -28,5 +30,8 @@ tracklist:
 imgURL: "https://i.discogs.com/IBhAU1tBnifVyOO9uNLO0iIlFa31fT2ksdeNaHs1sh0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDE5/NTc1LTE0OTcwOTM1/OTMtODUwMi5qcGVn.jpeg"
 Note: ""
 description: ""
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 [Spotify Link]()

@@ -1,6 +1,7 @@
 ---
 title: "Distant Satellites"
 year: 2014
+type: "album"
 layout: standard-album
 tracklist:
   - title: "The Lost Song Part 1" 
@@ -26,6 +27,9 @@ tracklist:
 imgURL: "https://i.discogs.com/eXEpGGxzPRTs5w50kEUq12e-oCH52YDa5ltRlpq6RN0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3NzE1/ODktMTQwMjQyMzQ4/MS03OTUxLmpwZWc.jpeg"
 Note: ""
 description: ""
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 [Spotify Link]()
 

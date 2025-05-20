@@ -1,6 +1,7 @@
 ---
 title: "Alternative 4"
 year: 1998
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Shroud of False" 
@@ -26,5 +27,8 @@ tracklist:
 imgURL: "https://i.discogs.com/bXhfRckJV8iAN64maTchMLVJ0j0lag8Qt58qaeQp2b0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODAy/My0xMTU1MzM4NzAz/LmpwZWc.jpeg"
 Note: ""
 description: ""
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 [Spotify Link]()

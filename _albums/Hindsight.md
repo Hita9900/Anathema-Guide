@@ -1,6 +1,7 @@
 ---
 title: "Hindsight"
 year: 2008
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Fragile Dreams"
@@ -36,6 +37,9 @@ tracklist:
 imgURL: "https://upload.wikimedia.org/wikipedia/en/a/ad/KSCOPE106_Anathema.jpg"
 Note: "sample text"
 description: "a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text.a very longer sample text"
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 
 [Spotify Link sample](https://spotify.com/rubber-soul)

@@ -1,6 +1,7 @@
 ---
 title: "Weather Systems"
 year: 2012
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Untouchable Part 1" 

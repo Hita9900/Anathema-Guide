@@ -1,6 +1,7 @@
 ---
 title: "The Silent Enigma"
 year: 1995
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Restless Oblivion" 

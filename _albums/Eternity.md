@@ -1,6 +1,7 @@
 ---
 title: "Eternity"
 year: 1996
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Sentient" 
@@ -30,5 +31,8 @@ tracklist:
 imgURL: "https://i.discogs.com/X0O1PD6nJO7htIbfYprE6hnrmLRazXJOLat54GQN__o/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDQ4/MDUtMTI4NzY2NDQy/Ny5qcGVn.jpeg"
 Note: ""
 description: ""
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 [Spotify Link]()

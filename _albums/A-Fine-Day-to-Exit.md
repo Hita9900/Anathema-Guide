@@ -1,6 +1,7 @@
 ---
 title: A Fine Day to Exit
 year: 2001
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Pressure" 
@@ -24,5 +25,8 @@ tracklist:
 imgURL: "https://i.discogs.com/5AXAriT7yZAmpt5LA9f75L_CQ7iTycZk5cc5uamNhoU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTE5/OS0xMTU1MzM4OTA0/LmpwZWc.jpeg"
 Note: ""
 description: ""
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 [Spotify Link]()

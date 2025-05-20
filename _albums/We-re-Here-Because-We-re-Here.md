@@ -1,6 +1,8 @@
 ---
 title: "We're here because we're here"
 year: 2010
+type: "album"
+slug: "we-re-here"
 layout: standard-album
 tracklist:
   - title: "Thin Air"

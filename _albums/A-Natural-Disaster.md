@@ -1,6 +1,7 @@
 ---
 title: A Natural Disaster
 year: 2003
+type: "album"
 layout: standard-album
 tracklist:
   - title: "Harmonium" 

@@ -7,3 +7,4 @@ collections:
   albums:
     output: true
     permalink: /albums/:name/
+    output: true

@@ -1,6 +1,8 @@
 ---
 title: "Judgement"
 year: 1999
+type: "album"
+slug: "Judgement"
 layout: standard-album
 tracklist:
   - title: "Deep" 
@@ -32,6 +34,9 @@ tracklist:
 imgURL: "https://i.discogs.com/0FGGUFxO_4_LXT5bm23uYWH8fj5rp3mXb77jtAmoMcg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NTg3/NjAtMTI2MzIyMjU5/NC5qcGVn.jpeg"
 Note: ""
 description: ""
+spotifyLink: ""
+deezerLink: ""
+soundcloudLink: ""
 ---
 [Spotify Link]()
 
