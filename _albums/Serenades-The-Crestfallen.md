@@ -1,0 +1,41 @@
+---
+title: "Serenades/The Crestfallen EP"
+year: 1993
+type: "Compilation Album"
+slug: "SerenadesCrestfallen"
+layout: standard-album
+tracklist:
+  - title: "Lovelorn Rhapsody"
+    length: "06:25"
+  - title: "Sweet Tears"
+    length: "04:41"
+  - title: "J'ai fait une promesse"
+    length: "02:40" 
+  - title: "They (Will Always) Die"
+    length: "07:16"
+  - title: "sleepless"
+    length: "04:12"
+  - title: "sleep in sanity"
+    length: "06:53"
+  - title: "Scars of the Old Stream"
+    length: "01:10"
+  - title: "Under a Veil (of Black Lace)"
+    length: "07:34"
+  - title: "where shadows dance"
+    length: "01:58"
+  - title: "...And I Lust"
+    length: "05:47"
+  - title: "The Sweet Suffering"
+    length: "06:42"
+  - title: "Everwake"
+    length: "02:41"
+  - title: "Crestfallen"
+    length: "10:17"
+  - title: "Dreaming: The Romance"
+    length: "23:23"
+imgURL: "https://i.discogs.com/SgMgHXT-ZozttyyR9bE05hS9Z111kqje4Ws-qH0DSpQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3ODA1/OC0xNDQyMDA0NTgx/LTgwOTAuanBlZw.jpeg"
+Note: ""
+description: ""
+---
+[Spotify Link]()
+

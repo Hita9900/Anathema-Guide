@@ -7,6 +7,11 @@ layout: default
     {% assign All-Faith-is-lost = site.misc | where: "slug", "All-Faith" | first %}
     {% assign TheyDie = site.singles | where: "slug", "TheyDie" | first %}
     {% assign Crestfallen = site.EPs | where: "slug", "Crestfallen" | first %}
+    {% assign Serenades = site.albums | where: "slug", "Serenades" | first %}
+    {% assign We-are-the-bible = site.singles | where: "slug", "theBible" | first %}
+    {% assign SerenadesCrestfallen = site.albums | where: "slug", "SerenadesCrestfallen" | first %}
+
+
     {% assign The-Optimist = site.albums | where: "slug", "The-Optimist" | first %}
     {% assign Judgement = site.albums | where: "slug", "Judgement" | first %}
     {% assign we-re-here = site.albums | where: "slug", "we-re-here" | first %}
@@ -20,6 +25,12 @@ layout: default
     {% include timeline-yeartitle.html year="1992" %}
     {% include timeline-card.html title=TheyDie.title image=TheyDie.imgURL type=TheyDie.type link=TheyDie.url %}
     {% include timeline-card.html title=Crestfallen.title image=Crestfallen.imgURL type=Crestfallen.type link=Crestfallen.url %}
+    {% include timeline-yeartitle.html year="1993" %}
+    {% include timeline-card.html title=Serenades.title image=Serenades.imgURL type=Serenades.type link=Serenades.url %}
+    {% include timeline-yeartitle.html year="1994" %}
+    {% include timeline-card.html title=We-are-the-bible.title image=We-are-the-bible.imgURL type=We-are-the-bible.type link=We-are-the-bible.url %}
+    {% include timeline-card.html title=SerenadesCrestfallen.title image=SerenadesCrestfallen.imgURL type=SerenadesCrestfallen.type link=SerenadesCrestfallen.url %}
+
     {% include timeline-yeartitle.html year="1999" %}
     {% include timeline-card.html title=Judgement.title image=Judgement.imgURL type=Judgement.type link=Judgement.url %}
     {% include timeline-yeartitle.html year="2010" %}
